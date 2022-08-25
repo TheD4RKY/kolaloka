@@ -1,0 +1,36 @@
+
+.element_border {
+  width: 62.5%;
+  margin: auto;
+  align-content: center;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1024px) and (max-width: 1480px) {
+  .element_border {
+    width: 82.5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .element_border {
+    width: 82.5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .element_border {
+    width: 92.5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .element_border {
+    width: 92.5%;
+  }
+}
