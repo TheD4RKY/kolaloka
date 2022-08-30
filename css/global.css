@@ -1,3 +1,47 @@
+@font-face {
+  font-family: 'Rama Slab M';
+  src: url('../fonts/Rama\ Slab\ M\ W03\ Bold.ttf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Rama Slab M';
+  src: url('../fonts/Rama\ Slab\ M\ W03\ SemiBold.ttf') format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Rama Slab M';
+  src: url('../fonts/Rama\ Slab\ M\ W03\ Regular.ttf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Rama Slab M';
+  src: url('../fonts/Rama\ Slab\ M\ W03\ Light.ttf') format('opentype');
+  font-weight: 400;
+}
+
+
+.rama_bold{
+  font-family: 'Rama Slab M';
+  font-weight: bold;
+}
+
+.rama_semibold{
+font-family: 'Rama Slab M';
+  font-weight: 600;
+}
+
+.rama_regular{
+font-family: 'Rama Slab M';
+  font-weight: 500;
+}
+
+.rama_light{
+font-family: 'Rama Slab M';
+  font-weight: 400;
+}
 
 .element_border {
   width: 62.5%;
