@@ -3,16 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+
+
+<!-- CSS  FILES HERE -->
+
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/hamburger.css" />
     <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/fontsize.css" />
+    <link rel="stylesheet" href="./css/fontfamily.css" />
+    <link rel="stylesheet" href="./scss/index.css">
+    <link rel="stylesheet" href="./scss/footer.css">
+
+<!-- SASS/SCSS COMPILED FILES HERE -->
+
+    <link rel="stylesheet" href="./scss/paralax.css" />
+
+
+<!-- JQUERRY  HERE -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>   
+    
+    
+
+    <!-- JAVASCRIPT  HERE -->
 
     <script src="./js/hamburger.js"></script>
     <script src="./js/navbar.js"></script>
     <script src="./js/navtoggle.js"></script>
+    <script src="./js/parallax.js"></script>
+
+<!-- STYLES -->
+
+
+    <style>
+     /* .eapps-link{
+        display: none !important;
+      }*/
+    </style>
   </head>
-  <body style="max-width: 1920px; margin: auto; background-color: brown;" onresize="resize()">
+  <body style="max-width: 1920px; margin: auto; " onresize="resize()">
 
 <!-- Navigace (i pro mobil) -->
 
@@ -32,15 +63,15 @@
                   "
               /></a>
             </li>
-            <li class="list1"><a href="./o_nas.html">O NÁS</a></li>
-            <li class="list1">
-              <a href="./dalsi_produkty_sluzby.html">CO UMÍME</a>
-            </li>
-            <li class="list1"><a href="#">AKČNÍ NABÍDKA</a></li>
-            <li class="list1"><a href="./kontakty.html">KONTAKTY</a></li>
+            <li class="list1"><a href="./pribeh.html" class="px40">Pribeh značky</a></li>
+            <li class="list1"><a href="./kde_koupit.html" class="px40"> Kde koupit</a></li>
+            <li class="list1"><a href="./kontakt.html" class="px40">kontakt</a></li>
+            <li class="list1"><a href="./michane_napoje.html" class="px40">michane napoje</a></li>
+            <li class="list1"><a href="./pripravujeme.html" class="px40">pripravujeme</a></li>
+            <li class="list1"><a href="./produktova_karta.html" class="px40">produktova karta</a></li>
           </ul>
 
-          <ul class="list">
+          <!-- <ul class="list">
             <li class="listactive">
               <a onclick="toggle(2);"
                 >OSTATNÍ
@@ -81,13 +112,13 @@
               >
             </li>
             <li class="list3"><a href="#">TEL.: +420 774 280 205</a></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>
 
 
-<nav style="display: grid; grid-template-columns: 1fr 1fr 1fr; padding-top: 1rem; padding-bottom: 1rem;" class="element_border">
+<nav class="element_border navbar">
 
 
         <div class="container2" onclick="myFunction(this)" style="z-index: 101; margin-top: auto; margin-bottom: auto;">
@@ -109,41 +140,56 @@
 
 
 <!-- Indexový header (jiný naž na podstránkách) -->
-<div style="width:100%; min-height: 783px; background-image: url('./public/index/header_bg.png'); background-repeat: no-repeat;
- ">
+<div class="indexheader_container">
+<img class="indexheader_container_img" src='./public/index/header_bg.png'
+ >
+</div>
 <!-- <img src="./public/index/header_bg.png" alt="" style="position: absolute; z-index: -2;"> -->
-<main class="element_border" style="height: inherit; display: grid; grid-template-columns: 1fr 1fr;">
-  <div>
-    <h1>opravdu slušná limonáda</h1>
-    <h2>To je ona, nealkoholická Kolaloka Originál. <br> Tvého srdce limonáda. </h2>
-    <div>chci vyzkoušet</div>
+<main class="element_border main_hd" style="height: inherit; display: grid; grid-template-columns: 1fr 1fr;">
+  <div class="index_hero" style="width: 494px; 
+  ">
+    <h1 style="text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;" class="px112 rama_b">opravdu <br> slušná limonáda</h1>
+    <h2 style="text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;" class="px40 rama_er">To je ona, nealkoholická Kolaloka Originál. <br> Tvého srdce limonáda. </h2>
+    <section class="element_border index_product">
+      <div class="button_card"><img src="./public/button/yellow.png" alt="" ><h3 class="rama_r px40">chci vyzkoušet</h3></div>
+    </section>
 
 
   </div>
 <div style="width: 100%; ">
-  <img src="./public/index/kolaloka_char_header.png" style="height: 719px; margin-top: 3.9rem;" alt="">
+  <img src="./public/index/kolaloka_char_header.png" class="him_resp" style="height: 719px; margin-top: 3.9rem;" alt="">
 </div>
 
 </main>
 </div>
 
 <section class="element_border">
-  <h2>jak jsem vznikla?</h2>
+  <h2 class="rama_sb px81">jak jsem vznikla?</h2>
   <p>Na počátku byla myšlenka, jak ztělesnit ikonickou filmovou limonádu. Výsledkem je Kolaloka, originální česká značka limonády plná vyvážených chutí, kterou by si jistě zamiloval i samotný Limonádový Joe.</p>
 <div><img src="" alt=""></div>
 
 
 </section>
 
-<section class="element_border" style="display: flex; flex-direction:row">
-<div style="margin-left:0; ">
-  <img src="./public/kolalokunajdete.svg" alt="find" style="max-width: 573px;
-  max-height: 278px;">
+
+<img src="./public/michanenapoje/bg.png" alt="" style="position: absolute; z-index: -1; margin-top: 0rem; width: 100%; height:403px;" >
+<section class="element_border rohlik" style="display: flex; flex-direction:row; margin-top: auto; margin-bottom: auto; justify-content: space-between; align-items: center;">
+<div style="margin-left:0; margin-top: 0rem;">
+  <div class="index_where">
+    <h2 class="rama_sb px90">KOLALOKU nyní najdete ve všech prodejnách Albert a na Rohlík.cz</h2>
+  </div>
 
 
 </div>
 
-<div style="margin-right:0; ">
+
+
+<div style="margin-right:0; margin-top: 5rem;">
 <img src="./public/index/albert.svg" alt="albert">
 <img src="./public/index/rohlik.png" alt="rohlik.cz">
 </div>
@@ -151,114 +197,161 @@
 
 
 
-<section style="display: grid; grid-template-columns: 33% 33% 33%;" class="element_border">
+<section class="element_border hero parallax-container produkty">
 
-<div style="display: flex; flex-direction:column; align-self: end;">
-  <img src="./public/index/kolasklo.png" alt="" style="max-width: 397px; ">
-  <img src="./public/index/kolalokasortimentlogo.svg" alt="" style="max-width: 268px;">
-  <h2>
+  
+<div style="display: flex; flex-direction:column; align-self: end; margin-top: 5rem; margin-inline: auto;">
+  <img src="./public/index/kolasklo.png" alt="" class="resp" style="max-width: 397px;margin-inline: auto; z-index: -2;">
+  <img src="./public/index/kolalokasortimentlogo.svg" alt="" style="max-width: 268px;margin-inline: auto;">
+  <h2 style="font: normal normal 600 38px/44px Rama Slab M; letter-spacing: 0.76px;
+  color: #00B2EB; text-align: center;">
     original ve skle
   </h2>
-  <p>
+  <p style="text-align: center;
+  font: normal normal normal 20px/35px Helvetica Now Display;
+  letter-spacing: 0px;
+  color: #707070; width: 344px;
+height: 169px; margin-inline: auto;" class="p_resp">
     Originální skleněná lahev Kolaloky je hlavním symbolem legendárního filmu, proto jsme myšlenku jejího netradičního tvaru za pomoci speciálně vytvořených forem proměnili ve skutečnost.
   </p>
-  <h2>
+  <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+  <h2 style="text-align: center;
+  font: normal normal 600 38px/44px Rama Slab M;
+  letter-spacing: 0.76px;color: #00B2EB;"  class="px38 rama_sb">
     objem:
   </h2>
-  <h3>
+  <h3 style="text-align: center;
+  font: normal normal 600 38px/44px Rama Slab M;
+  letter-spacing: 0.76px;color: #004470;" class="px38">
     200 ml
   </h3>
 </div>
+</div>
 
-<div style="display: flex; flex-direction:column; align-self: end;" >
-    <img src="./public/index/kolaplech.png" alt="" style="max-width: 263px; ">
-  <img src="./public/index/kolalokasortimentlogo.svg" alt="" style="width: 268px;">
-  <h2>
+<div style="display: flex; flex-direction:column; align-self: end; justify-content: center; margin-inline: auto;" >
+    <img src="./public/index/kolaplech.png" alt="" class="resp" style="max-width: 263px;margin-inline: auto; ">
+  <img src="./public/index/kolalokasortimentlogo.svg" alt="" style="width: 268px;margin-inline: auto;">
+  <h2 style="font: normal normal 600 38px/44px Rama Slab M; letter-spacing: 0.76px;
+  color: #00B2EB; text-align: center;">
     original v plechu
   </h2>
-  <p>
+  <p style="text-align: center;
+  font: normal normal normal 20px/35px Helvetica Now Display;
+  letter-spacing: 0px;
+  color: #707070;width: 344px;
+height: 169px; margin-inline: auto;" class="p_resp">
     Kolaloka v plechovce je díky svému balení vhodná pro jakýkoli prodej. Vyzkoušejte si z Kolaloky umíchat nějaký z našich doporučených míchaných nápojů.
   </p>
-  <h2>
+  <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; ">
+  <h2 style="text-align: center;
+  font: normal normal 600 38px/44px Rama Slab M;
+  letter-spacing: 0.76px;color: #00B2EB;">
     objem:
   </h2>
-  <h3>
+  <h3 style="text-align: center;
+  font: normal normal 600 38px/44px Rama Slab M;
+  letter-spacing: 0.76px;color: #004470;">
     250 ml
   </h3>
 </div>
-
-<div style="display: flex; flex-direction:column; align-self: end;">
-    <div>
-      <img src="" alt="">
-      <img src="./public/index/kolalokasortimentlogo.svg" alt="">
-    </div>
-  <img src="" alt="">
-  <h2>
-    original v plastu
-  </h2>
-  <p>
-    Kolaloka v PET lahvích je ideální pro retailový prodej. Kolaloku v PET lahvi si díky svému uzavíratelnému balení můžete vzít kamkoli.
-  </p>
-  <h2>
-    objem:
-  </h2>
-  <h3>
-    500 ml / 2 000 ml
-  </h3>
 </div>
 
-<div>produktová karta</div>
+<div style="display: flex; flex-direction:column; align-self: end; margin-inline: auto;">
+
+      <img src="./public/produkt/pet_lahve.png" class="resp" alt="">
+      <img src="./public/index/kolalokasortimentlogo.svg" alt="" style="margin-inline: auto;">
+  
+  <img src="" alt="">
+  <h2 style="font: normal normal 600 38px/44px Rama Slab M; letter-spacing: 0.76px;
+  color: #00B2EB; text-align: center;">
+    original v plastu
+  </h2>
+  <p style="text-align: center;
+  font: normal normal normal 20px/35px Helvetica Now Display;
+  letter-spacing: 0px;
+  color: #707070;width: 344px;
+height: 169px; margin-inline: auto;" class="p_resp">
+    Kolaloka v PET lahvích je ideální pro retailový prodej. Kolaloku v PET lahvi si díky svému uzavíratelnému balení můžete vzít kamkoli.
+  </p><div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+  <h2 style="text-align: center;
+  font: normal normal 600 38px/44px Rama Slab M;
+  letter-spacing: 0.76px;color: #00B2EB; display: inline-block; margin-right: 1rem;">
+    objem:
+  </h2>
+  <h3 style="text-align: center;
+  font: normal normal 600 38px/44px Rama Slab M;
+  letter-spacing: 0.76px;color: #004470;">
+    500 ml / 2 000 ml
+  </h3>
+</div></div>
+
+
 </section>
 
+
+<section class="element_border index_product">
+  <div class="button_card"><img src="./public/button/yellow.png" alt="" ><h3 class="rama_r px40">produktová karta</h3></div>
+</section>
 
 <section class="element_border" style="min-height: 440px;">
-  <img src="./public/index/Jakservirovat.png" alt="" style="position: absolute; z-index: -2;">
-  <h2>vychutnejte si kolaloku naplno</h2>
+  <img src="./public/index/Jakservirovat.png" alt="" style="position: absolute; z-index: -2; ">
+  <div class="banner_div">
+  <h2 class="rama_sb px90" >vychutnejte si kolaloku naplno</h2>
   <p>Kolaloka je skvělá v míchaných nápojích, podívejte se na recepty.</p>
-  <div>jak servírovat kolaloku</div>
+</div>
+<div class="button_banner"> <h3 class="rama_r px40">jak servírovat kolaloku</h3></div>
 </section>
 
-<section class="element_border" style="min-height: 363px;">
-  <img src="./public/index/novaprichut.png" alt="">
+
+
+
+
+<section class="element_border bann_height" style="min-height: 363px;" >
+  <img src="./public/index/novaprichut.png" alt="" style=" width:100%">
 </section>
 
 <section style="padding-top:4rem;">
-  <img src="./public/index/kdeochutnat.png" alt="">
+  <img src="./public/index/kdeochutnat.png" style=" width:100%" alt="">
 </section>
 
 <section style="height: 960px; width:100%;">
 
  <!-- insert instagram plug in -->
-
-</section>
+ <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-4f81e136-1b30-4024-91cf-b7df3ff187b0"></div>
 
 
 <!-- footer sekce -->
-<section class="element_border"  style="height: inherit; display: grid; grid-template-columns: 1fr 1fr 1fr;">
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-  <a href="">Příběh KOLALOKY</a>
-   <a href="">Složení</a>
-    <a href="">Sortiment</a>
-     <a href="">Kontakt</a>
+<img src="./public/footerbg.png" alt="" class="footer_bg">
+<section class="element_border footer_section" >
+<div class="rama_semibold footer_section_1">
+  <a href="" style="color: #004470;">Příběh KOLALOKY</a>
+   <a href="" style="color: #004470;">Složení</a>
+    <a href="" style="color: #004470;">Sortiment</a>
+     <a href="" style="color: #004470;">Kontakt</a>
 </div>
 
-<div>
+ <div class="footer_section_2">
   <img src="./public/footerboi.png" alt="">
-</div>
+  </div> 
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-  <h2>Chcete nabízet KOLALOKU ve svém sortimentu?</h2>
-  <div>napište nám</div>
+<div class="footer_section_3"
+>
+  <h2 style="
+font-size: 40px;
+
+color: #004470;" class="rama_semibold ">Chcete nabízet KOLALOKU ve svém sortimentu?</h2>
+  <img src="./public/footerbutton.png" alt="">
 </div>
 </section>
-
+  
 <!-- copyright -->
+<img src="./public/copyrightbg.png" alt="" class="copyright_img">
+<footer class="element_border copyright">
 
-<footer class="element_border" style="height: inherit; display: grid; grid-template-columns: 1fr 1fr 1fr;">
-
-  <h2 style="margin-inline: auto;"> KOLALOKA © 2022 </h2>
-  <h2 style="margin-inline: auto;"> kolaloka@kolaloka.cz</h2>
-  <h2 style="margin-inline: auto;">Webdesign by <a href="https://www.synapse5.com/">SYNAPSE/5</a></h2>
+  <h2 class="cp1 rama_r px40"> KOLALOKA © 2022 </h2>
+  <h2 class="cp2 rama_r px40"> kolaloka@kolaloka.cz</h2>
+  <h2 class="cp3 rama_r px40">Webdesign by <a href="https://www.synapse5.com/">SYNAPSE/5</a></h2>
 
 </footer>
   </body>

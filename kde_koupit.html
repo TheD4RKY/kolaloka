@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/hamburger.css" />
     <link rel="stylesheet" href="./css/global.css" />
-
+    <link rel="stylesheet" href="./css/fontsize.css" />
+    <link rel="stylesheet" href="./css/fontfamily.css" />
+    <link rel="stylesheet" href="./scss/kontakty.css" />
+    <link rel="stylesheet" href="./scss/footer.css">
+    <link rel="stylesheet" href="./scss/kde_koupit.css">
     <script src="./js/hamburger.js"></script>
     <script src="./js/navbar.js"></script>
     <script src="./js/navtoggle.js"></script>
@@ -32,15 +36,15 @@
                   "
               /></a>
             </li>
-            <li class="list1"><a href="./o_nas.html">O NÁS</a></li>
-            <li class="list1">
-              <a href="./dalsi_produkty_sluzby.html">CO UMÍME</a>
-            </li>
-            <li class="list1"><a href="#">AKČNÍ NABÍDKA</a></li>
-            <li class="list1"><a href="./kontakty.html">KONTAKTY</a></li>
+            <li class="list1"><a href="./pribeh.html">Pribeh značky</a></li>
+            <li class="list1"><a href="./kde_koupit.html"> Kde koupit</a></li>
+            <li class="list1"><a href="./kontakt.html">kontakt</a></li>
+            <li class="list1"><a href="./michane_napoje.html">michane napoje</a></li>
+            <li class="list1"><a href="./pripravujeme.html">pripravujeme</a></li>
+            <li class="list1"><a href="./produktova_karta.html">produktova karta</a></li>
           </ul>
 
-          <ul class="list">
+          <!-- <ul class="list">
             <li class="listactive">
               <a onclick="toggle(2);"
                 >OSTATNÍ
@@ -81,7 +85,7 @@
               >
             </li>
             <li class="list3"><a href="#">TEL.: +420 774 280 205</a></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>
@@ -111,18 +115,29 @@
 <!-- Indexový header (jiný naž na podstránkách) -->
 <section style="display: flex; justify-content: center; align-items: center;">
   <img src="./public/header_pages.png" alt="">
-  <div style="position: absolute; margin-inline: auto;" class="element_border">
-    <h2>kde koupit kolaloku</h2>
+  <div style="position: absolute; margin-inline: auto; " class="element_border">
+    <h2 style="text-align: left;
+    font: normal normal 600 112px/112px Rama Slab M;
+    letter-spacing: 0px;
+    color: #FFFFFF; text-transform: uppercase;">kde koupit kolaloku</h2>
   </div>
 </section>
 </div>
 
 <section style="display: flex; flex-direction:column; justify-content: center; align-items: center;" class="element_border">
-<div><h2>koloniály:</h2></div>
+<div><h2 style="font: normal normal 600 50px/70px Rama Slab M;
+  letter-spacing: 0px;
+  color: #00B2EB;
+  text-transform: uppercase;
+  opacity: 1;">koloniály:</h2></div>
 <div><img src="./public/značky/albert.png" alt="albert" style="width: 219px;
 height: 219px;"></div>
-<div><h2>e-koloniály:</h2></div>
-<div style="display: flex; flex-direction:row; justify-content: space-between; width: 100%; align-items: center;">
+<div><h2 style="font: normal normal 600 50px/70px Rama Slab M;
+  letter-spacing: 0px;
+  color: #00B2EB;
+  text-transform: uppercase;
+  opacity: 1;">e-koloniály:</h2></div>
+<div  class="brands">
 <img src="./public/značky/rohlik.png" alt="" style="width: 136px;
 height: 105px;">
 <img src="./public/značky/kvalitnipiti.png" alt="" style="width: 222px;
@@ -132,47 +147,57 @@ height: 52px;">
 <img src="./public/značky/alza_cz.png" alt="" style="width: 272px;
 height: 83px;">
 </div>
-<div><h2>velko-koloniály:</h2></div>
-<div style="display: flex; flex-direction:row">
+<div><h2 style="font: normal normal 600 50px/70px Rama Slab M;
+  letter-spacing: 0px;
+  color: #00B2EB;
+  text-transform: uppercase;
+  opacity: 1;">velko-koloniály:</h2></div>
+<div class="brands2">
 <img src="./public/značky/jip.png" alt="">
 <img src="./public/značky/tamda.png" alt="">
 
 </div>
 </section>
 
-<section style="height: 960px; width:100%;">
+<section >
 
- <!-- insert instagram plug in -->
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-4f81e136-1b30-4024-91cf-b7df3ff187b0"></div>
 
 </section>
 
 
 <!-- footer sekce -->
-<section class="element_border"  style="height: inherit; display: grid; grid-template-columns: 1fr 1fr 1fr;">
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-  <a href="">Příběh KOLALOKY</a>
-   <a href="">Složení</a>
-    <a href="">Sortiment</a>
-     <a href="">Kontakt</a>
+<img src="./public/footerbg.png" alt="" class="footer_bg">
+<section class="element_border footer_section" >
+<div class="rama_semibold footer_section_1">
+  <a href="" style="color: #004470;">Příběh KOLALOKY</a>
+   <a href="" style="color: #004470;">Složení</a>
+    <a href="" style="color: #004470;">Sortiment</a>
+     <a href="" style="color: #004470;">Kontakt</a>
 </div>
 
-<div>
+ <div class="footer_section_2">
   <img src="./public/footerboi.png" alt="">
-</div>
+  </div> 
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-  <h2>Chcete nabízet KOLALOKU ve svém sortimentu?</h2>
-  <div>napište nám</div>
+<div class="footer_section_3"
+>
+  <h2 style="
+font-size: 40px;
+
+color: #004470;" class="rama_semibold ">Chcete nabízet KOLALOKU ve svém sortimentu?</h2>
+  <img src="./public/footerbutton.png" alt="">
 </div>
 </section>
-
+  
 <!-- copyright -->
+<img src="./public/copyrightbg.png" alt="" class="copyright_img">
+<footer class="element_border copyright">
 
-<footer class="element_border" style="height: inherit; display: grid; grid-template-columns: 1fr 1fr 1fr;">
-
-  <h2 style="margin-inline: auto;"> KOLALOKA © 2022 </h2>
-  <h2 style="margin-inline: auto;"> kolaloka@kolaloka.cz</h2>
-  <h2 style="margin-inline: auto;">Webdesign by <a href="https://www.synapse5.com/">SYNAPSE/5</a></h2>
+  <h2 class="cp1 rama_r px40"> KOLALOKA © 2022 </h2>
+  <h2 class="cp2 rama_r px40"> kolaloka@kolaloka.cz</h2>
+  <h2 class="cp3 rama_r px40">Webdesign by <a href="https://www.synapse5.com/">SYNAPSE/5</a></h2>
 
 </footer>
   </body>

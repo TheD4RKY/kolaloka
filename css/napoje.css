@@ -1,0 +1,426 @@
+.drevo_specific_{
+    height: 310px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    display: flex;
+}
+
+.drevo_specific_ h2{
+    font: normal normal 800 45px/50px Inter;
+letter-spacing: 0px;
+color: #DA251D;
+text-transform: uppercase;
+opacity: 1;
+margin-bottom: 2rem;
+}
+
+.drevo_specific_ p{
+    text-align: left;
+font: normal normal bold 18px/25px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+max-width: 677px;
+}
+
+
+.drevospecific_left{
+display: flex; flex-direction: row;
+}
+
+.drevospecific_right{
+  display: flex; flex-direction: row-reverse;
+}
+
+.drevospecific_divider{
+  display: flex;
+  height: 220px;
+background: #DA8A44 0% 0% no-repeat padding-box;
+margin-top: 2rem;
+
+}
+
+.drevospecific_divider--flex{
+  display:flex; flex-direction:row;
+}
+
+.drevospecific_divider_button{
+  width: 427px;
+height: 85px; background: #FFFFFF 0% 0% no-repeat padding-box; text-align: center;
+font: normal normal normal 25px/30px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.drevospecific_grid--4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    object-fit: cover;
+    width: calc(400px + (657 - 400) * ((100vw - 1000px) / (1920 - 1000)));
+    height: 283px;
+    max-width: 657px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.drevospecific_grid--3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    object-fit: cover;
+   
+    width: calc(400px + (657 - 400) * ((100vw - 1000px) / (1920 - 1000)));
+    height: 283px;
+    max-width: 657px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.drevospecific_grid--2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    object-fit: cover;
+    width: calc(400px + (657 - 400) * ((100vw - 1000px) / (1920 - 1000)));
+   
+    height: 283px;
+    max-width: 657px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.drevospecific_grid--1{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    object-fit: cover;
+    width: calc(400px + (657 - 400) * ((100vw - 1000px) / (1920 - 1000)));
+    height: 283px;
+    max-width: 657px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.drevospecific_img{
+  
+  width: 100%;
+    height: inherit;   
+     object-fit: cover;
+}
+
+.drevospecific_left div{
+  margin-top: auto;
+    margin-bottom: auto;
+}
+
+.drevospecific_right div{
+  margin-top: auto;
+    margin-bottom: auto;
+}
+
+.drevospecific_divider--flex-text{
+  margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 2rem;
+}
+
+.drevospecific_divider--flex div p{
+  font: normal normal 500 18px/25px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+max-width: 443px;
+}
+
+.drevospecific_divider--flex div h3{
+  font: normal normal 800 25px/50px Inter;
+letter-spacing: 0px;
+color: #DA8A44;
+text-transform: uppercase;
+}
+
+.drevospecific_padding{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.drevospecific_text--upper{
+  font: normal normal normal 35px/45px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+
+margin-top: 4rem !important;
+}
+
+.drevo_specific_miniheader{
+    font-size: calc(30px + (30px - 40px) * ((100vw - 300px) / (1920 - 300)));
+    font-weight: 800;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #DA251D;
+    max-width:427px;
+}
+
+.drevo_specific_minitext{
+    text-align: left;
+    font: normal normal 400 18px/25px Inter;
+    letter-spacing: 0px;
+    color: #1F1A17;
+    max-width:427px;
+}
+
+.drevo_specific_upper_width{
+    max-width:427px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 2rem;
+    margin: 0 !important;
+}
+
+.drevo_specific_minibutton{
+    width: 427px;
+height: 85px;
+/* UI Properties */
+background: #DA8A44 0% 0% no-repeat padding-box;
+font-size: calc(20px + (20px - 25px) * ((100vw - 300px) / (1920 - 300)));
+opacity: 1;
+text-align: center;
+font: normal normal normal 25px/30px Inter;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+.drevo_specific_upper_width--reverse{
+    max-width: 427px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 2rem;
+    margin: 0 !important;
+}
+
+.drevo_specific_upper_width--nonreverse{
+  max-width: 427px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-left: 2rem;
+  margin: 0 !important;
+}
+
+.divider_text{
+  text-align: left;
+font: normal normal normal 35px/45px Inter;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+width: 721px;
+}
+
+.drevospecific_text--upper img{
+  width: calc(400px + (695 - 400) * ((100vw - 1000px) / (1920 - 1000)));
+}
+
+
+
+@media (min-width:500px) and (max-width:1000px) {
+  .drevospecific_divider--flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .drevospecific_divider--flex-text {
+    margin-inline: auto;
+    padding-right: 0;
+  }
+
+  .drevospecific_divider--flex div p {
+max-width: none;
+padding-bottom: 2rem;
+  }
+  .drevospecific_divider--flex div h3 {
+    text-align: center;
+      }
+
+      .drevospecific_left {
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+
+      .drevospecific_right {
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+
+      .drevo_specific_miniheader {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        margin-inline: auto;
+      }
+
+      .drevo_specific_minitext {
+        text-align: center;
+      }
+
+      .drevo_specific_minibutton {
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+      }
+
+      .drevo_specific_ h2 {
+        text-align: center;
+      }
+
+      .drevo_specific_ p {
+        text-align: center;
+        max-width: none;
+      }
+
+      .drevo_specific_upper_width--nonreverse p{
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+      .drevo_specific_upper_width--reverse p{
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      .divider_text{
+        font-size: calc(25px + (25 - 45) * ((100vw - 300px) / (1920 - 300)));
+        text-align: center;
+        line-height: 2rem;
+        display: block;
+        width: auto;
+    }
+
+    .drevospecific_divider_button{
+      margin-inline: auto;
+    }
+      }
+
+      @media (max-width:500px) {
+        .drevospecific_divider--flex {
+          flex-direction: column;
+          justify-content: center;
+        }
+      
+        .drevospecific_divider--flex-text {
+          margin-inline: auto;
+          padding-right: 0;
+        }
+      
+        .drevospecific_divider--flex div p {
+      max-width: none;
+      padding-bottom: 2rem;
+      margin-inline: auto;
+      text-align: center;
+        }
+        .drevospecific_divider--flex div h3 {
+          text-align: center;
+            }
+      
+            .drevospecific_left {
+              flex-direction: column-reverse;
+              align-items: center;
+            }
+      
+            .drevospecific_right {
+              flex-direction: column-reverse;
+              align-items: center;
+            }
+      
+            .drevo_specific_miniheader {
+              text-align: center;
+              margin-bottom: 1.5rem;
+              margin-inline: auto;
+            }
+      
+            .drevo_specific_minitext {
+              text-align: center;
+              max-width: 300px;
+              margin-inline: auto;
+            }
+      
+            .drevo_specific_minibutton {
+              margin-top: 2rem !important;
+              margin-bottom: 2rem !important;
+            }
+      
+            .drevo_specific_ h2 {
+              text-align: center;
+            }
+      
+            .drevo_specific_ p {
+              text-align: center;
+              max-width: none;
+            }
+      
+            .drevo_specific_upper_width--nonreverse p{
+              text-align: center;
+              margin-bottom: 1rem;
+              font: normal normal 400 28px/40px Inter;
+            
+            }
+            .drevo_specific_upper_width--reverse p{
+              text-align: center;
+              margin-bottom: 1rem;
+              font: normal normal 400 28px/40px Inter;
+              
+            }
+
+            .drevo_specific_upper_width--reverse{
+              padding-right: 0;
+            }
+
+            .drevo_specific_upper_width--nonreverse{
+              padding-left: 0;
+            }
+      
+            .divider_text{
+              font-size: calc(20px + (20 - 40) * ((100vw - 300px) / (1920 - 300)));
+              text-align: center;
+              line-height: 2rem;
+              display: block;
+              width: auto;
+          }
+      
+          .drevospecific_divider_button{
+            margin-inline: auto;
+            width: 250px;
+            height: 64px;
+          }
+
+          .drevo_specific_minibutton {
+            width: 250px;
+            height: 64px;
+            margin-inline: auto;
+          }
+
+          .drevo_specific_ {
+            height: auto;}
+
+            .drevo_specific_upper_width {
+padding-left: 0;
+            }
+
+            .drevospecific_text--upper img {
+              width: calc(300px + (695 - 300) * ((100vw - 300px) / (1920 - 1000)));
+          }
+
+          .drevospecific_grid--4{
+            grid-template-columns: 1fr 1fr;
+            height: auto;
+          }
+      }

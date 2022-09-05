@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/hamburger.css" />
     <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/fontsize.css" />
 
     <script src="./js/hamburger.js"></script>
     <script src="./js/navbar.js"></script>
     <script src="./js/navtoggle.js"></script>
   </head>
-  <body style="max-width: 1920px; margin: auto; background-color: brown;" onresize="resize()">
+  <body style="max-width: 1920px; margin: auto;" onresize="resize()">
 
 <!-- Navigace (i pro mobil) -->
 
@@ -32,15 +33,16 @@
                   "
               /></a>
             </li>
-            <li class="list1"><a href="./o_nas.html">O NÁS</a></li>
-            <li class="list1">
-              <a href="./dalsi_produkty_sluzby.html">CO UMÍME</a>
-            </li>
-            <li class="list1"><a href="#">AKČNÍ NABÍDKA</a></li>
-            <li class="list1"><a href="./kontakty.html">KONTAKTY</a></li>
-          </ul>
+          </li>
+          <li class="list1"><a href="./pribeh.html">Pribeh značky</a></li>
+          <li class="list1"><a href="./kde_koupit.html"> Kde koupit</a></li>
+          <li class="list1"><a href="./kontakt.html">kontakt</a></li>
+          <li class="list1"><a href="./michane_napoje.html">michane napoje</a></li>
+          <li class="list1"><a href="./pripravujeme.html">pripravujeme</a></li>
+          <li class="list1"><a href="./produktova_karta.html">produktova karta</a></li>
+        </ul>
 
-          <ul class="list">
+          <!-- <ul class="list">
             <li class="listactive">
               <a onclick="toggle(2);"
                 >OSTATNÍ
@@ -81,7 +83,7 @@
               >
             </li>
             <li class="list3"><a href="#">TEL.: +420 774 280 205</a></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>
@@ -114,7 +116,10 @@
 <section style="display: flex; justify-content: center; align-items: center;">
   <img src="./public/header_pages.png" alt="">
   <div style="position: absolute; margin-inline: auto;" class="element_border">
-    <h2>PŘIPRAVUJEME</h2>
+    <h2 style="text-align: left;
+    font: normal normal 600 112px/112px Rama Slab M;
+    letter-spacing: 0px;
+    color: #FFFFFF; text-transform: uppercase;">PŘIPRAVUJEME</h2>
   </div>
 </section>
 
@@ -122,44 +127,84 @@
 
 <section style="display:flex; flex-direction: row; " class="element_border">
 <div style="display:flex; flex-direction:column">
-<h2>jednou příchutí to nekončí</h2>
-<h3>Pravidelně pro vás budeme mít nové příchutě!</h3>
+<h2 style="text-align: left;
+font: normal normal 600 81px/81px Rama Slab M;
+letter-spacing: 0px;
+color: #00B2EB; text-transform: uppercase; margin-bottom: 0;">jednou příchutí to nekončí</h2>
+<h3 style="text-transform: uppercase; text-align: left;
+font: normal normal 600 52px/52px Rama Slab M;
+letter-spacing: 0px;
+color: #004470; margin-top:0">Pravidelně pro vás budeme mít nové příchutě!</h3>
 </div>
 
-<div>
-  <img src="" alt="">
-</div>
+<!-- <div>
+  <img src="./public/pripravujeme/flaska.png" alt="" style="position: absolute; margin-bottom:6rem">
+</div> -->
 
 
 </section>
 
 
 
-<section style="display: flex; align-items: center; justify-content: center;">
-  <img src="./public/kontakt/Mask Group 10.png" alt="" >
-  <div style="position: absolute; margin-inline: auto;">
-    <h2>Buďte u toho</h2>
-    <p>Do představení nové příchutě zbývá</p>
+<section style="display: flex; align-items: center; ">
+  <img src="./public/kontakt/Mask Group 10.png" alt="" style="margin-top: 9rem;">
+  <div style="position: absolute; " class="element_border">
+  <div style="position: absolute; margin-inline: auto; margin-left: 22rem;">
+    <h2 style="font: normal normal 600 81px/81px Rama Slab M;
+    letter-spacing: 0px;
+    color: #00B2EB; text-transform: uppercase; margin: 0;">Buďte u toho</h2>
+    <p style="font: normal normal 600 52px/52px Rama Slab M;
+    letter-spacing: 0px;
+    color: #004470;  text-transform: uppercase; margin: 0;">Do představení nové příchutě zbývá</p>
   </div>
 
-  <div style="position: absolute; margin-inline: auto; display: grid; grid-template-columns: 100px 100px 100px 100px;">
-  <div style=" display: flex;"> 
-    <div>999</div>
-    <h2>dny</h2>
+  <div style="position: absolute; display: grid; grid-template-columns: 100px 100px 100px 100px; margin-left: 70rem;">
+  <div style=" display: flex; flex-direction: column;"> 
+    <div style="width: 93px;
+    height: 139px;
+    background: #FFC428 0% 0% no-repeat padding-box; display: flex; justify-content: center; align-items: center; font: normal normal 600 52px/52px Rama Slab M;
+letter-spacing: 0px;
+color: #FFFFFF;">999</div>
+    <h2 style="text-align: center;
+    font: normal normal 600 45px/45px Rama Slab M;
+    letter-spacing: 0px;
+    color: #00B2EB; margin: 0.5rem;">dny</h2>
   </div>
-   <div >
-    <div>999</div>
-    <h2>hod.</h2>
+   <div style=" display: flex; flex-direction: column;" >
+    <div  style="width: 93px;
+    height: 139px;
+    background: #FFC428 0% 0% no-repeat padding-box; display: flex; justify-content: center; align-items: center; font: normal normal 600 52px/52px Rama Slab M;
+letter-spacing: 0px;
+color: #FFFFFF;">999</div>
+    <h2 style="text-align: center;
+    font: normal normal 600 45px/45px Rama Slab M;
+    letter-spacing: 0px;
+    color: #00B2EB; margin: 0.5rem;">hod.</h2>
   </div>
-   <div >
-    <div>999</div>
-    <h2>min.</h2>
+   <div  style=" display: flex; flex-direction: column;">
+    <div  style="width: 93px;
+    height: 139px;
+    background: #FFC428 0% 0% no-repeat padding-box; display: flex; justify-content: center; align-items: center; font: normal normal 600 52px/52px Rama Slab M;
+letter-spacing: 0px;
+color: #FFFFFF;">999</div>
+    <h2 style="text-align: center;
+    font: normal normal 600 45px/45px Rama Slab M;
+    letter-spacing: 0px;
+    color: #00B2EB; margin: 0.5rem;">min.</h2>
   </div>
-   <div >
-    <div>999</div>
-    <h2>sek.</h2>
+   <div  style=" display: flex; flex-direction: column;">
+    <div  style="width: 93px;
+    height: 139px;
+    background: #FFC428 0% 0% no-repeat padding-box;  display: flex; justify-content: center; align-items: center; font: normal normal 600 52px/52px Rama Slab M;
+letter-spacing: 0px;
+color: #FFFFFF;">999</div>
+    <h2 style="text-align: center;
+    font: normal normal 600 45px/45px Rama Slab M;
+    letter-spacing: 0px;
+    color: #00B2EB; margin: 0.5rem;">sek.</h2>
   </div>
   </div>
+</div>
 </section>
 
 <section style="display: flex; flex-direction: column;"  class="element_border">
@@ -190,31 +235,36 @@
 
 
 <!-- footer sekce -->
-<section class="element_border"  style="height: inherit; display: grid; grid-template-columns: 1fr 1fr 1fr;">
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-  <a href="">Příběh KOLALOKY</a>
-   <a href="">Složení</a>
-    <a href="">Sortiment</a>
-     <a href="">Kontakt</a>
+<img src="./public/footerbg.png" alt="" class="footer_bg">
+<section class="element_border footer_section" >
+<div class="rama_semibold footer_section_1">
+  <a href="" style="color: #004470;">Příběh KOLALOKY</a>
+   <a href="" style="color: #004470;">Složení</a>
+    <a href="" style="color: #004470;">Sortiment</a>
+     <a href="" style="color: #004470;">Kontakt</a>
 </div>
 
-<div>
+ <div class="footer_section_2">
   <img src="./public/footerboi.png" alt="">
-</div>
+  </div> 
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-  <h2>Chcete nabízet KOLALOKU ve svém sortimentu?</h2>
-  <div>napište nám</div>
+<div class="footer_section_3"
+>
+  <h2 style="
+font-size: 40px;
+
+color: #004470;" class="rama_semibold ">Chcete nabízet KOLALOKU ve svém sortimentu?</h2>
+  <img src="./public/footerbutton.png" alt="">
 </div>
 </section>
-
+  
 <!-- copyright -->
+<img src="./public/copyrightbg.png" alt="" class="copyright_img">
+<footer class="element_border copyright">
 
-<footer class="element_border" style="height: inherit; display: grid; grid-template-columns: 1fr 1fr 1fr;">
-
-  <h2 style="margin-inline: auto;"> KOLALOKA © 2022 </h2>
-  <h2 style="margin-inline: auto;"> kolaloka@kolaloka.cz</h2>
-  <h2 style="margin-inline: auto;">Webdesign by <a href="https://www.synapse5.com/">SYNAPSE/5</a></h2>
+  <h2 class="cp1 rama_r px40"> KOLALOKA © 2022 </h2>
+  <h2 class="cp2 rama_r px40"> kolaloka@kolaloka.cz</h2>
+  <h2 class="cp3 rama_r px40">Webdesign by <a href="https://www.synapse5.com/">SYNAPSE/5</a></h2>
 
 </footer>
   </body>

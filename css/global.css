@@ -22,6 +22,24 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: 'Rama Slab E';
+  src: url('../fonts/Rama\ Slab\ E\ W01\ Regular.ttf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('../fonts/HelveticaNowDisplay-Regular.ttf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('../fonts/HelveticaNowDisplay-Regular.ttf') format('opentype');
+  font-weight: 500;
+}
+
 
 .rama_bold{
   font-family: 'Rama Slab M';
@@ -44,7 +62,7 @@ font-family: 'Rama Slab M';
 }
 
 .element_border {
-  width: 62.5%;
+  width: 1200px;
   margin: auto;
   align-content: center;
 }
@@ -55,9 +73,9 @@ body {
   overflow-x: hidden;
 }
 
-@media (min-width: 1024px) and (max-width: 1480px) {
+@media (min-width: 1024px) and (max-width: 1250px) {
   .element_border {
-    width: 82.5%;
+    width: 95.5%;
   }
 }
 

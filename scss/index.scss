@@ -1,0 +1,139 @@
+.indexheader_container{
+    width:100%; min-height: 783px; position: absolute; z-index: -1;
+}
+
+.indexheader_container_img{
+    min-height: 783px; position: absolute;
+    width: 100%;
+}
+
+.navbar{
+    display: grid; grid-template-columns: 1fr 1fr 1fr; padding-top: 1rem; padding-bottom: 1rem;
+}
+
+
+.produkty{
+   display: grid; grid-template-columns: 33% 33% 33%;
+}
+
+.button_banner{
+    position: relative;
+    display: flex;
+    background-image: url("/public/button/yellow.png");
+    max-width: 334px;
+    width: calc(25px + (40 - 25) * ((100vw - 300px) / (1920 - 300))) !important;
+    height: 80px;
+    h3{
+        position: absolute;
+        text-transform: uppercase;
+        color: black;
+        margin-inline: auto;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.banner_div{
+    h2{
+        color: white;
+    }
+}
+
+.index_product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3{
+        position: absolute;
+        text-transform: uppercase;
+        color: black;
+        margin-inline: auto;
+        text-align: center;
+        margin: 0;
+    line-height: 0;
+    padding-top: 0.8rem;
+    }
+
+}
+
+
+
+
+.index_hero{
+    h2{
+        width: 508px;
+        letter-spacing: 0;
+        line-height: 47px;
+    }
+}
+
+
+.index_where{
+    width: 573px;
+    height: 278px; 
+
+    h2{
+        color: white;
+    }
+}
+
+.produkty_card{
+
+}
+
+
+
+
+@media (max-width:1164px) {
+    .produkty{
+        display: grid; grid-template-columns: 1fr;
+     }
+}
+
+@media (max-width:471px) {
+.button_card{
+    img{
+        width: 100%;
+    }
+}
+
+.resp{
+    width: 100% !important;
+}
+
+.bann_height{
+    min-height: 0 !important;
+}
+
+.p_resp{
+    width: auto !important;
+    height: auto !important;
+}
+
+.index_where{
+    height: auto !important;
+    width: auto !important;
+}
+
+.rohlik{
+    flex-direction: column !important;
+}
+
+.him_resp{
+    width: 300px !important;
+    height: 100% !important;
+}
+
+.main_hd{
+    grid-template-columns: 1fr !important
+    ;
+}
+
+}
