@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/fontfamily.css" />
     <link rel="stylesheet" href="./scss/kontakty.css" />
     <link rel="stylesheet" href="./scss/footer.css">
+    <link rel="stylesheet" href="./scss/pribeh.css">
     <script src="./js/hamburger.js"></script>
     <script src="./js/navbar.js"></script>
     <script src="./js/navtoggle.js"></script>
@@ -20,74 +21,75 @@
 <!-- Navigace (i pro mobil) -->
 
 <div class="menu_overlay" id="translatetoggle">
-  <div class="divbodyborder">
-    <div class="flexlist">
-      <ul class="list">
-        <li class="listactive">
-          <a onclick="toggle(1);"
-            >KATEGORIE
-            <img
-              src="./public/arrowrev.svg"
-              style="
-                z-index: 101;
-                padding-left: 1rem;
-                padding-bottom: 0.3rem;
-              "
-          /></a>
-        </li>
-        <li class="list1"><a href="./pribeh.html" class="px40">Pribeh značky</a></li>
-        <li class="list1"><a href="./kde_koupit.html" class="px40"> Kde koupit</a></li>
-        <li class="list1"><a href="./kontakt.html" class="px40">kontakt</a></li>
-        <li class="list1"><a href="./michane_napoje.html" class="px40">michane napoje</a></li>
-        <li class="list1"><a href="./pripravujeme.html" class="px40">pripravujeme</a></li>
-        <li class="list1"><a href="./produktova_karta.html" class="px40">produktova karta</a></li>
-      </ul>
+      <div class="divbodyborder">
+        <div class="flexlist">
+          <ul class="list">
+            <li class="listactive">
+              <a onclick="toggle(1);"
+                >KATEGORIE
+                <img
+                  src="./public/arrowrev.svg"
+                  style="
+                    z-index: 101;
+                    padding-left: 1rem;
+                    padding-bottom: 0.3rem;
+                  "
+              /></a>
+            </li>
+             <li class="list1"><a href="./pribeh.html" class="px40">Příběh značky</a></li>
+            <li class="list1"><a href="./produktova_karta.html" class="px40">produktová karta</a></li>
+            <li class="list1"><a href="./michane_napoje.html" class="px40">míchané nápoje</a></li>
+            <li class="list1"><a href="./pripravujeme.html" class="px40">připravujeme</a></li>
+            <li class="list1"><a href="./kde_koupit.html" class="px40">Kde koupit</a></li>
+            <li class="list1"><a href="./kontakt.html" class="px40">kontakt</a></li>
+          </ul>
 
-      <!-- <ul class="list">
-        <li class="listactive">
-          <a onclick="toggle(2);"
-            >OSTATNÍ
-            <img
-              src="./public/arrowrev.svg"
-              style="
-                z-index: 101;
-                padding-left: 1rem;
-                padding-bottom: 0.3rem;
-              "
-          /></a>
-        </li>
-        <li class="list2"><a href="ke_stazeni.html">KE STAŽENÍ</a></li>
-        <li class="list2"><a href="#">REFERENCE</a></li>
-      </ul>
+          <!-- <ul class="list">
+            <li class="listactive">
+              <a onclick="toggle(2);"
+                >OSTATNÍ
+                <img
+                  src="./public/arrowrev.svg"
+                  style="
+                    z-index: 101;
+                    padding-left: 1rem;
+                    padding-bottom: 0.3rem;
+                  "
+              /></a>
+            </li>
+            <li class="list2"><a href="ke_stazeni.html">KE STAŽENÍ</a></li>
+            <li class="list2"><a href="#">REFERENCE</a></li>
+          </ul>
 
-      <ul class="list">
-        <li class="listactive">
-          <a onclick="toggle(3);"
-            >KONTAKTY
-            <img
-              src="./public/arrowrev.svg"
-              style="
-                z-index: 101;
-                padding-left: 1rem;
-                padding-bottom: 0.3rem;
-              "
-          /></a>
-        </li>
-        <li class="list3">
-          <a href="https://www.instagram.com/bestparkett/?hl=en"
-            >FACEBOOK</a
-          >
-        </li>
-        <li class="list3">
-          <a href="https://www.facebook.com/Bestparkett-433970756640379/"
-            >INSTAGRAM</a
-          >
-        </li>
-        <li class="list3"><a href="#">TEL.: +420 774 280 205</a></li>
-      </ul> -->
+          <ul class="list">
+            <li class="listactive">
+              <a onclick="toggle(3);"
+                >KONTAKTY
+                <img
+                  src="./public/arrowrev.svg"
+                  style="
+                    z-index: 101;
+                    padding-left: 1rem;
+                    padding-bottom: 0.3rem;
+                  "
+              /></a>
+            </li>
+            <li class="list3">
+              <a href="https://www.instagram.com/bestparkett/?hl=en"
+                >FACEBOOK</a
+              >
+            </li>
+            <li class="list3">
+              <a href="https://www.facebook.com/Bestparkett-433970756640379/"
+                >INSTAGRAM</a
+              >
+            </li>
+            <li class="list3"><a href="#">TEL.: +420 774 280 205</a></li>
+          </ul> -->
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+
 
 
 <nav style="display: grid; grid-template-columns: 1fr 1fr 1fr; padding-top: 1rem; padding-bottom: 1rem;" class="element_border">
@@ -101,7 +103,7 @@
 
 
 <div>
-  <img src="./public/logo.png" alt="kolaloka_logo">
+  <a href="./index.html"><img src="./public/logo.png" alt="kolaloka_logo"></a>
 </div>
 
 <div>
@@ -118,46 +120,60 @@
     <h2 style="text-align: left;
     font: normal normal 600 112px/112px Rama Slab M;
     letter-spacing: 0px;
-    color: #FFFFFF;">příběh značky</h2>
+    color: #FFFFFF; text-transform: uppercase;">příběh značky</h2>
   </div>
 </section>
 
 <section class="element_border">
+  <div style="display: flex; flex-direction:row">
+    <div>
   <h2 style="text-align: left;
   font: normal normal 600 81px/81px Rama Slab M;
   letter-spacing: 0px;
-  color: #00B2EB; text-transform: uppercase;">jak jsem vznikla?</h2>
+  color: #00B2EB; text-transform: uppercase; margin: 0; margin-top: 5rem;">jak jsem vznikla?</h2>
   <p style="text-align: left;
   font: normal normal normal 20px/35px Helvetica Now Display;
   letter-spacing: 0px;
-  color: #707070;">Na počátku byla myšlenka, jak ztělesnit ikonickou filmovou limonádu. Výsledkem je Kolaloka, originální česká značka limonády plná vyvážených chutí, kterou by si jistě zamiloval i samotný Limonádový Joe.</p>
-<div><img src="" alt=""></div>
+  color: #707070; width:592px">Na počátku byla myšlenka, jak ztělesnit ikonickou filmovou limonádu. Výsledkem je Kolaloka, originální česká značka limonády plná vyvážených chutí, kterou by si jistě zamiloval i samotný Limonádový Joe.</p>
+  </div>
+  <div>
+<img src="./public/pribeh/telka.png" style="position: absolute;
+    margin-left: 7rem;
+    transform: translateY(-108px);" alt=""></div></div>
 
-
+<div style="display: flex; flex-direction:row">
+  <div style="  padding-left: 7rem;">
+    <img src="./public/pribeh/sklo.png" alt="">
+  </div>
+    <div style="    padding-left: 12rem;
+    margin-top: auto;
+    margin-bottom: auto;">
   <h2  style="text-align: left;
   font: normal normal 600 81px/81px Rama Slab M;
   letter-spacing: 0px;
-  color: #00B2EB; text-transform: uppercase;">IKONICKÝ NÁPOJ</h2>
+  color: #00B2EB; text-transform: uppercase; margin: 0;">IKONICKÝ NÁPOJ</h2>
   <h3 style="text-align: left;
   font: normal normal 600 52px/52px Rama Slab M;
   letter-spacing: 0px;
-  color: #004470;">To je on, mého srdce šampion!</h3>
+  color: #004470; margin: 0;">To je on, mého srdce šampion!</h3>
   <p style="text-align: left;
   font: normal normal normal 20px/35px Helvetica Now Display;
   letter-spacing: 0px;
-  color: #707070;">Kolaloka je ikonickým nápojem z kultovního ﬁlmu Limonádový Joe aneb Koňská opera režiséra Oldřicha Lipského. 
+  color: #707070; width:680px;     margin-top: 2rem;">Kolaloka je ikonickým nápojem z kultovního ﬁlmu Limonádový Joe aneb Koňská opera režiséra Oldřicha Lipského. 
     Tento parodický snímek s tematikou Divokého západu se vysílá několikrát do roka, což Kolaloce pomáhá dostat se do širokého povědomí diváků všech věkových kategorií.</p>
-<div><img src="" alt=""></div>
+</div>
+  </div>
 
 </section>
 
 <img src="./public/michanenapoje/bg.png" alt="" style="position: absolute; z-index: -1; margin-top: 4rem; height: 421px;
 width: 100%;" >
-<section style="display: flex; flex-direction: row-reverse;" class="element_border">
+<section style="display: flex; flex-direction: row-reverse; justify-content: space-between;" class="element_border">
   <img src="./public/umlasek.png" alt="" style="margin-top: 2.5rem;">
 <div style="margin-top: auto; margin-bottom:auto;">
-  <p style="font-size: 20px; color:white;">Jako velký fanoušek Limonádového Joe jsem dlouho přemýšlel, proč není Kolalokova limonáda reálným nápojem. Po dlouhé cestě náročnou prérií mne velmi těší, že Vám ji dnes mohu představit. To je ona. Originální a křišťálově čistá. Naše Kolaloka. Ať Vám chutná!</p>
-  <h2  style="color:white; font-size: 80px; text-align: left;
+  <p class="texto">Jako velký fanoušek Limonádového Joe jsem dlouho přemýšlel, proč není Kolalokova limonáda reálným nápojem. Po dlouhé cestě náročnou prérií mne velmi těší, že Vám ji dnes mohu představit. To je ona. Originální a křišťálově čistá. Naše Kolaloka. Ať Vám chutná!</p>
+<img src="./public/pribeh/podpis.png" alt="">
+<h2  style="color:white; font-size: 80px; text-align: left;
   font: normal normal 600 37px/37px Rama Slab M;
   letter-spacing: 0px; margin: 0;">Radek Umlášek</h2>
   <h2  style="color:white; font-size: 80px; text-align: left;
@@ -169,7 +185,15 @@ width: 100%;" >
   </div>
 </section>
 
+<section style="width: 100%;">
 
+  <h2 style="text-align: center;
+font: normal normal 600 81px/81px Rama Slab M;
+letter-spacing: 0px;
+color: #00B2EB;
+opacity: 1;">SLEDUJTE KOLALOKU NA INSTAGRAMU</h2>
+
+</section>
 
 <section >
 
