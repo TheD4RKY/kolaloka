@@ -27,8 +27,23 @@
   color: #707070;
 }
 
-@media (max-width:844px) {
+
+
+@media (max-width:960px) {
     .kontakt_body{
-        display: grid; grid-template-columns:1fr
+      grid-template-columns: 1fr;
     }
-}
+  
+    
+  }
+
+  @media (max-width:636px) {
+    .text1{
+        font-size: calc(25px + (69 - 25) * ((100vw - 300px) / (636 - 300))) !important;
+    }
+
+    .text2{
+        font-size: calc(25px + (40 - 25) * ((100vw - 300px) / (636 - 300))) !important;
+        
+    }
+  }

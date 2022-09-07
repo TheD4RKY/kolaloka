@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-JW33ENEBDN"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-JW33ENEBDN'); </script>
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/hamburger.css" />
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/fontsize.css" />
     <link rel="stylesheet" href="./css/fontfamily.css" />
     <link rel="stylesheet" href="./scss/footer.css">
-
+    <link rel="stylesheet" href="./scss/pripravujeme.css">
+    <link rel="stylesheet" href="./scss/index.css" />
     <script src="./js/hamburger.js"></script>
     <script src="./js/navbar.js"></script>
     <script src="./js/navtoggle.js"></script>
@@ -18,24 +20,12 @@
   <body style="max-width: 1920px; margin: auto;" onresize="resize()">
 
 <!-- Navigace (i pro mobil) -->
-
 <div class="menu_overlay" id="translatetoggle">
       <div class="divbodyborder">
         <div class="flexlist">
           <ul class="list">
-            <li class="listactive">
-              <a onclick="toggle(1);"
-                >KATEGORIE
-                <img
-                  src="./public/arrowrev.svg"
-                  style="
-                    z-index: 101;
-                    padding-left: 1rem;
-                    padding-bottom: 0.3rem;
-                  "
-              /></a>
-            </li>
-             <li class="list1"><a href="./pribeh.html" class="px40">Příběh značky</a></li>
+            
+            <li class="list1"><a href="./pribeh.html" class="px40">Příběh značky</a></li>
             <li class="list1"><a href="./produktova_karta.html" class="px40">produktová karta</a></li>
             <li class="list1"><a href="./michane_napoje.html" class="px40">míchané nápoje</a></li>
             <li class="list1"><a href="./pripravujeme.html" class="px40">připravujeme</a></li>
@@ -91,7 +81,8 @@
 
 
 
-<nav style="display: grid; grid-template-columns: 1fr 1fr 1fr; padding-top: 1rem; padding-bottom: 1rem;" class="element_border">
+
+<nav style="display: grid; grid-template-columns: 1fr 1fr 1fr; padding-top: 1rem; padding-bottom: 1rem;" class="element_border nav">
 
 
         <div class="container2" onclick="myFunction(this)" style="z-index: 101; margin-top: auto; margin-bottom: auto;">
@@ -116,18 +107,18 @@
 
 <!-- <img src="./public/index/header_bg.png" alt="" style="position: absolute; z-index: -2;"> -->
 <section style="display: flex; justify-content: center; align-items: center;">
-  <img src="./public/header_pages.png" alt="">
+  <img src="./public/header_pages.png" alt="" style="width: 100%; height: 224px;">
   <div style="position: absolute; margin-inline: auto;" class="element_border">
     <h2 style="text-align: left;
     font: normal normal 600 112px/112px Rama Slab M;
     letter-spacing: 0px;
-    color: #FFFFFF; text-transform: uppercase;">PŘIPRAVUJEME</h2>
+    color: #FFFFFF; text-transform: uppercase;" class="mainlogotext cetnterr">PŘIPRAVUJEME</h2>
   </div>
 </section>
 
 </div>
 
-<section style="display:flex; flex-direction: row; " class="element_border">
+<section style="display:flex; flex-direction: row; " class="element_border agg">
 <div style="display:flex; flex-direction:column">
 <h2 style="text-align: left;
 font: normal normal 600 81px/81px Rama Slab M;
@@ -141,7 +132,7 @@ color: #004470; margin-top:0">Pravidelně pro vás budeme mít nové příchutě
 
  <div>
   <img src="./public/pripravujeme/flaska.png" alt="" style="position: absolute;
-    transform: translateY(-87px); padding-left: 8rem;">
+    transform: translateY(-87px); padding-left: 8rem;" class="sad">
 </div>
 
 
@@ -149,10 +140,13 @@ color: #004470; margin-top:0">Pravidelně pro vás budeme mít nové příchutě
 
 
 
-<section style="display: flex; align-items: center; ">
-  <img src="./public/kontakt/Mask Group 10.png" alt="" style="margin-top: 9rem;">
-  <div style="position: absolute; " class="element_border">
-  <div style="position: absolute; margin-inline: auto; margin-left: 22rem;">
+<section style="display: flex; align-items: center; justify-content: center;">
+  <img src="./public/kontakt/Mask Group 10.png" alt="" style="margin-top: 9rem;     width: 100%;
+  height: 443px;">
+  <div style="position: absolute; position: absolute;
+  display: flex;
+  justify-content: space-between; padding-top: 11rem;" class="element_border ddd">
+  <div >
     <h2 style="font: normal normal 600 81px/81px Rama Slab M;
     letter-spacing: 0px;
     color: #00B2EB; text-transform: uppercase; margin: 0;">Buďte u toho</h2>
@@ -161,7 +155,7 @@ color: #004470; margin-top:0">Pravidelně pro vás budeme mít nové příchutě
     color: #004470;  text-transform: uppercase; margin: 0;">Do představení nové příchutě zbývá</p>
   </div>
 
-  <div style="position: absolute; display: grid; grid-template-columns: 100px 100px 100px 100px; margin-left: 70rem;">
+  <div style="display: grid; grid-template-columns: 100px 100px 100px 100px; " class="griddz">
   <div style="padding-left: 2rem; display: flex; flex-direction: column;"> 
     <div style="width: 93px;
     height: 139px;
@@ -210,7 +204,7 @@ color: #FFFFFF;">999</div>
 </div>
 </section>
 
-<section style="display: flex; flex-direction: column;"  class="element_border">
+<section style="display: flex; flex-direction: column;"  class="element_border ">
 <h2 style="text-align: center;
 font: normal normal 600 52px/52px Rama Slab M;
 letter-spacing: 0px;
@@ -221,7 +215,7 @@ color: #004470;">Zadejte svůj e-mail, a budeme vás informovat jako první</h2>
 height: 82px;
 /* UI Properties */
 border: 2px solid #00B2EB; margin-inline: auto;">
-    <button style="border: none; background-color: transparent;"><img src="./public/pripravujeme/buttonchci.png" alt=""></button>
+    <button style="border: none; background-color: transparent;"><img src="./public/pripravujeme/buttonchci.png" alt="" class="frbtn"></button>
   </form>
 <p style="font: normal normal normal 20px/35px Helvetica Now Display;
 letter-spacing: 0px;
@@ -231,10 +225,11 @@ color: #707070; margin-inline: auto; text-align: center;">Zadáním e-mailu souh
 
 
 <section style="display: flex; align-items: center; justify-content: center;  width: 100%;"  >
-  <img src="./public/pripravujeme/bg.png" alt="">
+  <img src="./public/pripravujeme/bg.png" alt=""  style="    width: 100%;
+  height: 443px;">
 
-  <div style="position: absolute; margin-inline: auto; display: flex; flex-direction: row;" class="element_border">
-    <div style="">
+  <div style="position: absolute; margin-inline: auto; display: flex; flex-direction: row;" class="element_border looka">
+    <div class="shii" >
     <h2 style="text-align: left;
 font: normal normal 600 81px/81px Rama Slab M;
 letter-spacing: 0px;
@@ -247,7 +242,9 @@ height: 71px;">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tincidunt ante. Praesent sed ante non velit fermentum varius.</p></div>
  <div style="margin-top: auto;
     margin-bottom: auto;
-    margin-left: 7rem;"><img src="./public/pripravujeme/napištenam.png" alt=""></div>
+    margin-left: 7rem;" class="shi">
+    
+    <a href="./pripravujeme.html"style="color: black; text-decoration:none"><img src="./public/pripravujeme/napištenam.png" alt="" class="napis"></a></div>
   </div>
  
 </section>
@@ -259,25 +256,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae tincidunt
 font: normal normal 600 81px/81px Rama Slab M;
 letter-spacing: 0px;
 color: #00B2EB;
-opacity: 1;">SLEDUJTE KOLALOKU NA INSTAGRAMU</h2>
+opacity: 1;" class="fra">SLEDUJTE KOLALOKU NA INSTAGRAMU</h2>
 
 </section>
 
 <section >
 
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-  <div class="elfsight-app-4f81e136-1b30-4024-91cf-b7df3ff187b0"></div>
+  <div class="elfsight-app-8cf743a6-0d24-454d-bed5-8ac717d57ab4"></div>
 
 </section>
 
 <!-- footer sekce -->
 <img src="./public/footerbg.png" alt="" class="footer_bg">
 <section class="element_border footer_section" >
-<div class="rama_semibold footer_section_1">
-  <a href="" style="color: #004470;">Příběh KOLALOKY</a>
-   <a href="" style="color: #004470;">Složení</a>
-    <a href="" style="color: #004470;">Sortiment</a>
-     <a href="" style="color: #004470;">Kontakt</a>
+<div class="rama_semibold footer_section_1 ">
+  <a href="./pribeh.html" style="color: #004470;">Příběh KOLALOKY</a>
+   <a href="./michane_napoje.html" style="color: #004470;">Nápoje</a>
+    <a href="./produktova_karta.html" style="color: #004470;">Sortiment</a>
+     <a href="./kontakt.html" style="color: #004470;">Kontakt</a>
 </div>
 
  <div class="footer_section_2">
@@ -288,9 +285,8 @@ opacity: 1;">SLEDUJTE KOLALOKU NA INSTAGRAMU</h2>
 >
   <h2 style="
 font-size: 40px;
-
 color: #004470;" class="rama_semibold ">Chcete nabízet KOLALOKU ve svém sortimentu?</h2>
-  <img src="./public/footerbutton.png" alt="">
+  <a href="./kontakt.html"><img src="./public/footerbutton.png" alt=""></a>
 </div>
 </section>
   
@@ -298,8 +294,8 @@ color: #004470;" class="rama_semibold ">Chcete nabízet KOLALOKU ve svém sortim
 <img src="./public/copyrightbg.png" alt="" class="copyright_img">
 <footer class="element_border copyright">
 
-  <h2 class="cp1 rama_r px40"> KOLALOKA © 2022 </h2>
-  <h2 class="cp2 rama_r px40"> kolaloka@kolaloka.cz</h2>
+<h2 class="cp1 rama_r px40" > KOLALOKA © 2022 </h2>
+  <h2 class="cp2 rama_r px40" ><a href="mailto:kolaloka@kolaloka.cz" style="color: white; text-decoration:none">kolaloka@kolaloka.cz</a> </h2>
   <h2 class="cp3 rama_r px40">Webdesign by <a href="https://www.synapse5.com/">SYNAPSE/5</a></h2>
 
 </footer>

@@ -23,11 +23,26 @@ max-width: 677px;
 
 
 .drevospecific_left{
-display: flex; flex-direction: row;
+display: flex; flex-direction: row; padding-top: 5rem; padding-bottom: 5rem;
+}
+
+.drevospecific_left img{
+  max-height: 548px;
+  margin-bottom: auto;
+    margin-top: auto;
+}
+
+.drevospecific_right img{
+  max-height: 548px;
+  padding-top: 2rem;
+  margin-bottom: auto;
+    margin-top: auto;
 }
 
 .drevospecific_right{
   display: flex; flex-direction: row-reverse;
+  justify-content: space-between;
+ 
 }
 
 .drevospecific_divider{
@@ -235,7 +250,11 @@ width: 721px;
 
 
 
-@media (min-width:500px) and (max-width:1000px) {
+@media (min-width:500px) and (max-width:1025px) {
+.pdimg{
+  padding-top: 0 !important;
+}
+
   .drevospecific_divider--flex {
     flex-direction: column;
     justify-content: center;
@@ -311,6 +330,19 @@ padding-bottom: 2rem;
       }
 
       @media (max-width:500px) {
+        .pdimg{
+  padding-top: 0 !important;
+}
+        .drevospecific_left img{
+width: auto !important;
+max-width: 300px;
+}
+
+.drevospecific_right img{
+width: auto !important;
+max-width: 300px;
+}
+
         .drevospecific_divider--flex {
           flex-direction: column;
           justify-content: center;

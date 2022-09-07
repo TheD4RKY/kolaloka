@@ -127,7 +127,10 @@
     font-size: calc(25px + 15 * (100vw - 300px) / 1620) !important;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .footer_section_3 img {
+    width: 250px;
+  }
   .copyright {
     flex-direction: column;
   }
@@ -160,7 +163,7 @@
     height: 214px;
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 500px) {
   .footer_section_2 {
     transform: translateY(584px) !important;
   }

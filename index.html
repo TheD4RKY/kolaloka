@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/fontfamily.css" />
     <link rel="stylesheet" href="./scss/footer.css" />
     <link rel="stylesheet" href="./scss/index.css" />
-    
+    <link rel="stylesheet" href="./scss/">
 
 <!-- SASS/SCSS COMPILED FILES HERE -->
 
@@ -25,7 +25,7 @@
 <!-- JQUERRY  HERE -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>   
-    
+    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-JW33ENEBDN"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-JW33ENEBDN'); </script>
     
 
     <!-- JAVASCRIPT  HERE -->
@@ -52,18 +52,7 @@
       <div class="divbodyborder">
         <div class="flexlist">
           <ul class="list">
-            <li class="listactive">
-              <a onclick="toggle(1);"
-                >KATEGORIE
-                <img
-                  src="./public/arrowrev.svg"
-                  style="
-                    z-index: 101;
-                    padding-left: 1rem;
-                    padding-bottom: 0.3rem;
-                  "
-              /></a>
-            </li>
+            
             <li class="list1"><a href="./pribeh.html" class="px40">Příběh značky</a></li>
             <li class="list1"><a href="./produktova_karta.html" class="px40">produktová karta</a></li>
             <li class="list1"><a href="./michane_napoje.html" class="px40">míchané nápoje</a></li>
@@ -151,14 +140,14 @@
   ">
     <h1  class="px112 rama_b">opravdu <br> slušná limonáda</h1>
     <h2  class="px40 rama_er">To je ona, nealkoholická Kolaloka Originál. <br> Tvého srdce limonáda. </h2>
-    <section class="element_border index_product">
-      <div class="button_card"><img src="./public/button/yellow.png" alt="" ><h3 class="rama_r px40">chci vyzkoušet</h3></div>
+   <section class="element_border index_product">
+    <div class="button_card"><img src="./public/button/yellow.png" alt="" ><h3 class="rama_r px40">      <a href="./produktova_karta.html" style="color: black; text-decoration:none">chci vyzkoušet</a></h3></div></a>
     </section>
 
 
   </div>
-<div style="width: 100%; ">
-  <img src="./public/index/kolaloka_char_header.png" class="him_resp" style="height: 719px; margin-top: 3.9rem;" alt="">
+<div style="width: 100%; " class="charakter">
+  <img src="./public/index/kolaloka_char_header.png" class="him_resp" style="height: 719px; margin-top: 3.9rem; object-fit: fill;" alt="">
 </div>
 
 </main>
@@ -168,7 +157,7 @@
   <div style="padding-bottom: 11rem;" class="mobile_pribeh_main">
   <h2 class="rama_sb px81 index_story_header">jak jsem vznikla?</h2>
   <p class="index_story">Na počátku byla myšlenka, jak ztělesnit ikonickou filmovou limonádu. Výsledkem je Kolaloka, originální česká značka limonády plná vyvážených chutí, kterou by si jistě zamiloval i samotný Limonádový Joe.</p>
-<div class="mobile_padding_index_story"><img src="./public/celypribeh.png" alt=""></div></div>
+<div class="mobile_padding_index_story"><a href="./pribeh.html" ><img src="./public/celypribeh.png" alt=""></a></div></div>
 <div class="mobilepribeh">
    <img src="./public/index/stroke.svg" alt="" class="linia">
   <img src="./public/index/telka.png" style="padding-left: 3rem;
@@ -193,7 +182,7 @@
 </section>
 
 
-<img src="./public/michanenapoje/bg.png" alt="" style="position: absolute; z-index: -1; margin-top: 0rem; width: 100%; height:403px;" >
+<img src="./public/michanenapoje/bg.png" class="albertbg" alt="" style="position: absolute; z-index: -1; margin-top: 0rem; width: 100%; height:403px;" >
 <section class="element_border rohlik" style="display: flex; flex-direction:row; margin-top: auto; margin-bottom: auto; justify-content: space-between; align-items: center;">
 <div style="margin-left:0; margin-top: 0rem;">
   <div class="index_where">
@@ -237,7 +226,7 @@ height: 169px; margin-inline: auto;" class="p_resp">
   <h3 style="text-align: center;
   font: normal normal 600 38px/44px Rama Slab M;
   letter-spacing: 0.76px;color: #004470;" class="px38">
-    200 ml
+    &nbsp;200 ml
   </h3>
 </div>
 </div>
@@ -260,12 +249,12 @@ height: 169px; margin-inline: auto;" class="p_resp">
   <h2 style="text-align: center;
   font: normal normal 600 38px/44px Rama Slab M;
   letter-spacing: 0.76px;color: #00B2EB;">
-    objem:
+   &nbsp; objem: 
   </h2>
   <h3 style="text-align: center;
   font: normal normal 600 38px/44px Rama Slab M;
   letter-spacing: 0.76px;color: #004470;">
-    250 ml
+  &nbsp;  250 ml
   </h3>
 </div>
 </div>
@@ -303,11 +292,11 @@ height: 169px; margin-inline: auto;" class="p_resp">
 </section>
 
 
-<section class="element_border index_product">
+<a href="./produktova_karta.html"><section class="element_border index_product">
   <div class="button_card_2">
     <img src="./public/button/yellow.png" alt="" ><h3 class="rama_r px40">produktová karta</h3>
   </div>
-</section>
+</section></a>
 
 <section class="element_border banner_padding" style="min-height: 440px;">
   <img src="./public/index/Jakservirovat.png" alt="" style="position: absolute; z-index: -2; width: 100%;
@@ -318,19 +307,24 @@ height: 169px; margin-inline: auto;" class="p_resp">
   <p>Kolaloka je skvělá v míchaných nápojích, podívejte se na recepty.</p>
 </div>
 
-<div class="button_banner"> <h3 class="rama_r px40">jak servírovat kolaloku</h3></div></div>
+  <a href="./michane_napoje.html"><div class="button_banner "> <h3 class="rama_r px40">jak servírovat kolaloku</h3></div></a></div>
 </section>
 
 
 
-
+<!-- <section>
+  <img src="./public/mob/bg.png" alt="" style="position: absolute; max-width: 250px; height: 500px;" >
+  <a href="./pripravujeme.html"><div class="button_card_3" >
+    <img src="./public/button/blue.png" alt="" ><h3 class="rama_r px40">produktová karta</h3>
+  </div></a>
+</section> -->
 
 <section class="element_border bann_height" style="min-height: 363px;" >
-  <img src="./public/index/novaprichut.png" alt="" style=" width:100%">
+ <a href="./pripravujeme.html"><img src="./public/index/novaprichut.png" alt="" style=" width:100%"></a> 
 </section>
 
-<section style="padding-top:4rem;">
-  <img src="./public/index/kdeochutnat.png" style=" width:100%" alt="">
+<section style="padding-top:4rem; ">
+ <a href="./kde_koupit.html"> <img src="./public/index/kdeochutnat.png" style=" width:100%; display: block;" alt=""></a>
 </section>
 
 <section style="height: 960px; width:100%;">
@@ -344,10 +338,10 @@ height: 169px; margin-inline: auto;" class="p_resp">
 <img src="./public/footerbg.png" alt="" class="footer_bg">
 <section class="element_border footer_section" >
 <div class="rama_semibold footer_section_1 ">
-  <a href="" style="color: #004470;">Příběh KOLALOKY</a>
-   <a href="" style="color: #004470;">Složení</a>
-    <a href="" style="color: #004470;">Sortiment</a>
-     <a href="" style="color: #004470;">Kontakt</a>
+  <a href="./pribeh.html" style="color: #004470;">Příběh Značky</a>
+   <a href="./michane_napoje.html" style="color: #004470;">Míchané Nápoje</a>
+    <a href="./produktova_karta.html" style="color: #004470;">Produktová Karta</a>
+     <a href="./kontakt.html" style="color: #004470;">Kontakt</a>
 </div>
 
  <div class="footer_section_2">
@@ -359,7 +353,7 @@ height: 169px; margin-inline: auto;" class="p_resp">
   <h2 style="
 font-size: 40px;
 color: #004470;" class="rama_semibold ">Chcete nabízet KOLALOKU ve svém sortimentu?</h2>
-  <img src="./public/footerbutton.png" alt="">
+  <a href="./kontakt.html"><img src="./public/footerbutton.png" alt=""></a>
 </div>
 </section>
   
@@ -367,8 +361,8 @@ color: #004470;" class="rama_semibold ">Chcete nabízet KOLALOKU ve svém sortim
 <img src="./public/copyrightbg.png" alt="" class="copyright_img">
 <footer class="element_border copyright">
 
-  <h2 class="cp1 rama_r px40"> KOLALOKA © 2022 </h2>
-  <h2 class="cp2 rama_r px40"> kolaloka@kolaloka.cz</h2>
+<h2 class="cp1 rama_r px40" > KOLALOKA © 2022 </h2>
+  <h2 class="cp2 rama_r px40" ><a href="mailto:kolaloka@kolaloka.cz" style="color: white; text-decoration:none">kolaloka@kolaloka.cz</a> </h2>
   <h2 class="cp3 rama_r px40">Webdesign by <a href="https://www.synapse5.com/">SYNAPSE/5</a></h2>
 
 </footer>

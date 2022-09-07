@@ -1,4 +1,4 @@
-function toggle(x) {
+/*function toggle(x) {
   var first = document.getElementsByClassName("list1");
   var second = document.getElementsByClassName("list2");
   var third = document.getElementsByClassName("list3");
@@ -79,4 +79,4 @@ function resize() {
       third[i].style.display = "none";
     }
   }
-}
+}*/

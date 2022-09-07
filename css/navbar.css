@@ -1,3 +1,7 @@
+.button_card h3{
+  font-family: 'Rama Slab E' !important;
+}
+
 .menu_overlay {
   width: 100%;
   max-width: 1920px;
@@ -37,7 +41,7 @@
 .list li {
   list-style-type: none;
   height: 90px;
-  width: 300px;
+  width: 400px;
   padding: 5px;
   text-transform: uppercase;
  
@@ -91,6 +95,12 @@
   transition: .6s ease opacity,.6s ease transform;
 }
 
+.list1 a{
+  text-align: center;
+  font-size: 60px !important;
+  line-height: 60px !important;
+}
+
 .list2{
   display:block;
   transition: .6s ease opacity,.6s ease transform;
@@ -109,19 +119,7 @@
     display: block;
   }
   
-  .list1{
-    display:none;
-   
-  }
   
-  .list2{
-    display:none;
-    
-  }
-  
-  .list3{
-    display:none;
-  }
   
     .list {
       display: flex;
@@ -137,7 +135,7 @@
   }
   
   .list li {
-  height: 35px;
+  height: 95px;
   }
 
 }
@@ -147,23 +145,12 @@
   display: block;
 }
 
-.list1{
-  display:none;
- 
-}
 
-.list2{
-  display:none;
-  
-}
-
-.list3{
-  display:none;
-}
 
   .list {
     display: flex;
     flex-direction: column;
+    padding-left: 0;
   }
 
 
@@ -175,16 +162,30 @@
 }
 
 .list li {
-height: 35px;
+height: 95px;
 }
 }
 
 
 @media (max-width:489px){
-  .nav{
+
+
+  
+  .list{
+    padding-left: 0;
+  }
+}
+
+@media (max-width:1000px) {
+  .cetnterr{
+    text-align: center !important;
+  }
+}
+
+@media (max-width:600px) {
+    .nav{
     grid-template-columns: 1fr !important;
   }
-
   .nav div{
     margin-inline: auto;
   }

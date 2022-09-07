@@ -8,4 +8,71 @@
   font-family: "Helvetica Now Display";
   letter-spacing: 0px;
   color: #FFFFFF;
+}
+
+@media (max-width: 1250px) {
+  .shies {
+    flex-direction: column !important;
+    margin-inline: auto;
+  }
+  .shies img {
+    width: 300px !important;
+    margin-left: 0rem !important;
+    position: relative !important;
+    margin-inline: auto;
+  }
+  .shies h2 {
+    text-align: center !important;
+  }
+  .shies h3 {
+    text-align: center !important;
+  }
+  .shies p {
+    width: 100% !important;
+    text-align: center;
+  }
+  .jkimg {
+    padding-left: 0rem !important;
+    margin-inline: auto;
+  }
+  .shiies2 {
+    padding-left: 0rem !important;
+  }
+  .shiies2 p {
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .shieimg {
+    padding-top: 8rem !important;
+  }
+  .shieimg {
+    padding-top: 8rem !important;
+  }
+  .shiflex {
+    flex-direction: column-reverse !important;
+  }
+  .umlas {
+    max-width: 300px;
+    margin-inline: auto;
+  }
+  .umlastext {
+    display: flex;
+    flex-direction: column;
+  }
+  .umlastext h2 {
+    text-align: center !important;
+    margin-inline: auto;
+  }
+  .umlastext p {
+    padding-top: 3rem !important;
+    text-align: center !important;
+    margin-inline: auto;
+    height: 100% !important;
+    width: 90% !important;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .umlastext img {
+    margin-inline: auto;
+  }
 }/*# sourceMappingURL=pribeh.css.map */

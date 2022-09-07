@@ -27,4 +27,18 @@
   .brands2 img {
     padding-bottom: 4rem;
   }
+}
+@media (max-width: 446px) {
+  .maintext {
+    font-size: 90px !important;
+  }
+  .gridik {
+    grid-template-columns: 1fr !important;
+  }
+  .container2 {
+    margin-inline: auto;
+  }
+  .container {
+    margin-inline: auto;
+  }
 }/*# sourceMappingURL=kde_koupit.css.map */

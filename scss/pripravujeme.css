@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+  .looka {
+    flex-direction: column !important;
+  }
+  .shi {
+    margin-inline: auto !important;
+  }
+  .sad {
+    transform: translateY(0px) !important;
+    padding-left: 0rem !important;
+    display: none;
+    position: relative;
+  }
+}
+@media (max-width: 886px) {
+  input {
+    width: 297px !important;
+    height: 38px !important;
+  }
+  .ddd {
+    flex-direction: column !important;
+  }
+  .griddz {
+    grid-template-columns: 100px 100px !important;
+    padding-bottom: 5rem;
+    margin-inline: auto;
+  }
+  .griddz div {
+    padding-left: 0 !important;
+  }
+  .frbtn {
+    width: 250px !important;
+  }
+  .napis {
+    width: 250px !important;
+  }
+  .fra {
+    padding-top: 3rem !important;
+  }
+  .shii h2 {
+    text-align: center !important;
+    font: normal normal 600 36px/46px Rama Slab M !important;
+  }
+  .shii p {
+    width: auto !important;
+    text-align: center !important;
+    padding-bottom: 6rem !important;
+  }
+  .mainlogotext {
+    font-size: 80px !important;
+  }
+}/*# sourceMappingURL=pripravujeme.css.map */

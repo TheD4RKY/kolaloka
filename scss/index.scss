@@ -3,7 +3,7 @@
 }
 
 .indexheader_container_img{
-    min-height: 783px; position: absolute;
+    height: 783px; position: absolute;
     width: 100%;
 }
 
@@ -125,8 +125,8 @@ margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+
     h3{
-        
         position: absolute;
         text-transform: uppercase;
         color: black;
@@ -159,6 +159,98 @@ margin-top: 1rem;
 
 }
 
+.button_card_3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    img{
+width: 250px !important;
+    }    
+
+h3{
+        position: absolute;
+        text-transform: uppercase;
+        color: black;
+        margin-inline: auto;
+        text-align: center;
+        margin: 0;
+        line-height: 0;
+        
+    }
+
+}
+.button_card_2 {
+ img{
+
+    content:url("/public/button/yellow.png");
+    
+ }
+}
+
+.button_card_2:hover {
+    transition-delay: 250ms;
+    transition: all 250ms;
+    
+
+    img{
+
+content:url("/public/button/blue.png");
+
+    }
+
+    h3{
+        color: white;
+        padding-top: 0rem !important;
+    }
+
+}
+
+.button_card {
+ img{
+
+    content:url("/public/button/yellow.png");
+    
+ }
+}
+
+.button_card:hover {
+    transition-delay: 250ms;
+    transition: all 250ms;
+    padding-bottom: 1rem;
+
+    img{
+padding-top: 1rem;
+content:url("/public/button/blue.png");
+
+    }
+
+    a{
+        color: white !important;
+    }
+        padding-top: 0rem !important;
+    
+
+}
+
+.button_card_ani {
+ 
+
+
+    
+ 
+}
+
+.button_card_ani:hover {
+    transition-delay: 250ms;
+    transition: all 250ms;
+content:url("/public/button/blue.png");
+
+    
+
+
+}
 
 
 
@@ -167,7 +259,7 @@ margin-top: 1rem;
         text-align: left;
     letter-spacing: 0px;
     color: #FFFFFF;
-    text-transform: uppercase;
+    
         width: 508px;
         line-height: 47px;
     }
@@ -215,7 +307,12 @@ margin-top: 1rem;
      }
 }
 
-@media (max-width:471px) {
+@media (max-width:600px) {
+.charakter{
+    display: flex;
+    justify-content: center;
+}
+
 .button_card{
     img{
         width: 100%;
@@ -228,6 +325,11 @@ margin-top: 1rem;
 
 .bann_height{
     min-height: 0 !important;
+    
+}
+
+.newbanner{
+
 }
 
 .p_resp{
@@ -247,8 +349,9 @@ margin-top: 1rem;
 .him_resp{
     width: 300px !important;
     height: 100% !important;
-    padding-top: 1.4rem;
+   /*  padding-top: 1.4rem; */
     object-fit: contain;
+    margin-top: 0rem !important;
 }
 
 .main_hd{
@@ -264,11 +367,13 @@ margin-top: 1rem;
 }
 
  h1 {
+    font-size: 100px !important;
     text-align: center;
+    margin-bottom: 0 !important;
 }}
 
 .indexheader_container_img {
-min-height: 1219px;
+min-height: 908px;
     position: absolute;
     width: 100%;
     object-fit: cover;
@@ -291,6 +396,7 @@ min-height: 1219px;
 
 .container2{
     margin-inline: auto;
+    grid-row-start: 2;
 }
 
 .margin_inline_m{
@@ -301,7 +407,8 @@ min-height: 1219px;
     font-size: 61px !important;
 }
 .main_text{
-    padding-top: 8rem;
+     
+    padding-top: calc(10px + (50 - 10) * ((100vw - 300px) / (600 - 300))) !important;;
     margin-inline: auto;
     text-align: center;
 
@@ -370,3 +477,220 @@ height: 118px;
 
 }
 }
+
+@media (min-width:600px) and (max-width:1100px) {
+    .charakter{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button_card{
+        img{
+            width: 100%;
+        }
+    }
+    
+    .resp{
+        width: 100% !important;
+    }
+    
+    .bann_height{
+        min-height: 0 !important;
+    }
+    
+    .p_resp{
+        width: auto !important;
+        height: auto !important;
+    }
+    
+    .index_where{
+        height: auto !important;
+        width: auto !important;
+    }
+    
+    .rohlik{
+        flex-direction: column !important;
+    }
+    
+    .him_resp{
+        width: 300px !important;
+        height: 100% !important;
+        padding-top: 1.4rem;
+        margin-top: -1.0999999999999943rem !important ;
+        object-fit: contain;
+    }
+    
+    .main_hd{
+        grid-template-columns: 1fr !important
+        ;
+            height: inherit;
+    }
+    .index_hero {
+        width: 100% !important;
+        h2 {
+       width: 100%;
+       text-align: center;
+    }
+    
+     h1 {
+        
+        text-align: center;
+        width: 90% !important;
+        margin-inline: auto;
+    }}
+    
+    .indexheader_container_img {
+        min-height: 904px;
+        position: absolute;
+        width: 100%;
+        object-fit: cover;
+    
+    }
+    
+    .px40{
+        font-size: 30px !important;
+    }
+    
+    .navbar{
+            grid-template-columns:1fr 1fr 1fr;
+            
+    }
+    
+    .button_card{
+        width: 250px;
+        margin-inline: auto;
+    }
+    
+    .container2{
+        margin-inline: auto;
+      
+    }
+    
+    .margin_inline_m{
+        margin-inline: auto;
+    }
+    
+    .px81{
+        font-size: 61px !important;
+    }
+    .main_text{
+         
+        padding-top: 8rem !important;
+        margin-inline: auto;
+        text-align: center;
+    
+     
+    }
+    
+    .index_story{
+        width: 95%;
+        margin-inline: auto;
+        text-align: center;
+    }
+    
+    .mobile_padding_index_story{
+        padding-top: 0rem;
+        padding-bottom: 2rem;
+    }
+    
+    .main_text{
+        flex-direction: column;
+    }
+    
+    .mobilepribeh{
+        display: none;
+    }
+    
+    .mobile_pribeh_main{
+        padding-bottom: 2rem !important;
+    } 
+    
+    .px90{
+        font-size: 70px !important;
+    }
+    
+    .albert_pad{
+        margin-top: 0 !important;
+        margin-inline: auto !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        img{
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+    }
+
+    .albertbg{
+        height: 506px !important;
+        object-fit: cover !important;
+    }
+    
+    .index_where{
+        h2{
+           margin-top: 4rem;
+                text-align: center;
+        }
+    }
+    
+    .button_card_2{
+        width: 100%;
+    
+        img{
+            width: 260px;
+        }
+    }
+    
+    .banner_div{
+        h2{
+            display: contents;
+            font-size: 45px !important;
+            text-align: center !important;
+        }
+    }
+    
+    .banner_div p {
+    width: 250px;
+    height: 118px;
+    
+    }
+
+   
+}
+
+@media (min-width:1100px) and (max-width:1300px) {
+
+    .main_text {
+        flex-direction: column;
+    }
+
+    .mobile_pribeh_main{
+        padding-bottom: 1rem;
+    }
+
+    .mobilepribeh{
+        padding-bottom: 10rem;
+    }
+
+    .index_story_header{
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .index_story{
+        text-align: center;
+        margin-inline: auto;
+        width: 612px;
+        height: 105px;
+    }
+    .mobile_padding_index_story{
+        display: flex;
+        justify-content: center;
+    }
+
+    .him_resp{
+        height: 572px;
+    }
+}
+
+

@@ -1,0 +1,20 @@
+@media (max-width:676px) {
+    img{
+        width: 100%;
+    }
+
+    .nowidth{
+        width: auto !important;
+        margin-left: 0 !important;
+    }
+
+    .service{
+        font-size: 80px !important;
+    }
+
+    .ext{
+        height: 671px !important;
+    object-fit: cover !important;
+
+    }
+}
